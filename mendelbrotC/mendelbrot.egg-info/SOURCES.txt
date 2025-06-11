@@ -1,0 +1,6 @@
+mendelbrot.cpp
+setup.py
+mendelbrot.egg-info/PKG-INFO
+mendelbrot.egg-info/SOURCES.txt
+mendelbrot.egg-info/dependency_links.txt
+mendelbrot.egg-info/top_level.txt
