@@ -5,7 +5,15 @@ import os
 import subprocess
 
 # Define the path to your .exe file and the arguments
-exe_path = "C:\\Users\\jocar\\Desktop\\orbit\\mendelbrot.exe"
+
+
+path = os.path.dirname(os.path.abspath(__file__))
+path = os.path.join(path, 'mendelbrotC\\mendelbrot.exe')
+
+print(path)
+
+exe_path = path # "./mendelbrotC/mendelbrot.exe"
+
 
 # Run the .exe file with the specified arguments
 
